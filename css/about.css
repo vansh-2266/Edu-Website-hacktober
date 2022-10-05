@@ -1,4 +1,6 @@
 /* ============== ACHIEVEMENTS ============= */
+
+
 .about__achievements {
     margin-top: 3rem;
   }
@@ -167,4 +169,16 @@
     .team__member p {
       margin-bottom: 1.5rem;
     }
+  }
+
+
+  /* --- nav btn effect ---  */
+  .nav-btn a:hover{
+    background: #fff;
+    color: #e4405f;
+    padding: 7px 12px;
+    border-radius: 5%;
+    font-weight: bold;
+
+    transition: all ease 0.7s;
   }

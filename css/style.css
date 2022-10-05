@@ -417,21 +417,13 @@
   
   .nav__menu a {
     font-size: 0.9rem;
-    transition: var(--transition);
+    
     
   }
   
-  /*.nav__menu a:hover {
-    color: #00bf8e;
-  }*/
 
-  .nav__menu a:hover{
-     
-   
-    color: #ff3c78;
-  
-   
-    }
+
+ 
     
 
   .nav__menu a.btn {
@@ -1063,4 +1055,17 @@
       justify-content: center;
       
     }
+  }
+
+
+  /*** adding style to navbar btn *** */
+
+  .nav-btn a:hover{
+    background: #fff;
+    color: #e4405f;
+    padding: 7px 12px;
+    border-radius: 5%;
+    font-weight: bold;
+
+    transition: all ease 0.7s;
   }

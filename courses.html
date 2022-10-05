@@ -9,6 +9,10 @@
     <!-- ICONSCOUT CDN -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
 
+    <!-- adding bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
     <!-- GOOGLE FONTS (MONTSERRAT)-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,6 +20,7 @@
 
     <!-- STYLESHEETS -->
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/courses.css">
     <style>
       body { background-image: url("./images/bg-texture.png") }
       .courses { margin-top: 1rem  }
@@ -26,10 +31,10 @@
         <div class="container nav__container">
             <a href="index.html" class="nav__logo"><h4>EGATOR</h4></a>
             <ul class="nav__menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="courses.html">Courses</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li class="nav-btn"><a href="index.html">Home</a></li>
+                <li class="nav-btn"><a href="about.html">About</a></li>
+                <li class="nav-btn"><a href="courses.html">Courses</a></li>
+                <li class="nav-btn"><a href="contact.html">Contact</a></li>
             </ul>
             <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
             <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
@@ -37,8 +42,20 @@
     </nav>
     <!--====================== END OF NAV =====================-->
 
+    <!-- **** banner **** -->
+
+      <div class="course-banner ">
+        <h2>Our Courses</h2>
+        <div class="formDiv">
+          <form class="d-flex">
+            <input class="form-control " type="search" placeholder="Search Courses" aria-label="Search">
+            <span><button class="searchButton btn " type="submit">Search</button></span>
+          </form>
+        </div>
+      </div>
 
 
+    <!-- ************************ -->
 
 
 
@@ -47,7 +64,7 @@
       <div class="container courses__container">
         <article class="course">
           <div class="course__image">
-            <img src="./images/course1.jpg" />
+            <img src="images/course-1.png" />
           </div>
           <div class="course__info">
             <h4>Responsive SmartHome Website Design</h4>
@@ -61,7 +78,7 @@
 
         <article class="course">
           <div class="course__image">
-            <img src="./images/course2.jpg" />
+            <img src="images/course-1.png" />
           </div>
           <div class="course__info">
             <h4>Responsive SmartHome Website Design</h4>
@@ -74,7 +91,7 @@
 
         <article class="course">
           <div class="course__image">
-            <img src="./images/course3.jpg" />
+            <img src="images/course-1.png" />
           </div>
           <div class="course__info">
             <h4>Responsive SmartHome Website Design</h4>
@@ -87,7 +104,7 @@
 
         <article class="course">
           <div class="course__image">
-            <img src="./images/course4.jpg" />
+            <img src="images/course-1.png" />
           </div>
           <div class="course__info">
             <h4>Responsive SmartHome Website Design</h4>
@@ -100,7 +117,7 @@
 
         <article class="course">
           <div class="course__image">
-            <img src="./images/course5.jpg" />
+            <img src="images/course-1.png" />
           </div>
           <div class="course__info">
             <h4>Responsive SmartHome Website Design</h4>
@@ -113,7 +130,7 @@
 
         <article class="course">
           <div class="course__image">
-            <img src="./images/course6.jpg" />
+            <img src="images/course-1.png" />
           </div>
           <div class="course__info">
             <h4>Responsive SmartHome Website Design</h4>
@@ -126,7 +143,7 @@
 
         <article class="course">
           <div class="course__image">
-            <img src="./images/course7.jpg" />
+            <img src="images/course-1.png" />
           </div>
           <div class="course__info">
             <h4>Responsive SmartHome Website Design</h4>
@@ -139,7 +156,7 @@
 
         <article class="course">
           <div class="course__image">
-            <img src="./images/course8.jpg" />
+            <img src="images/course-1.png" />
           </div>
           <div class="course__info">
             <h4>Responsive SmartHome Website Design</h4>
@@ -152,7 +169,7 @@
 
         <article class="course">
           <div class="course__image">
-            <img src="./images/course9.jpg" />
+            <img src="images/course-1.png" />
           </div>
           <div class="course__info">
             <h4>Responsive SmartHome Website Design</h4>
@@ -165,7 +182,7 @@
 
         <article class="course">
           <div class="course__image">
-            <img src="./images/course10.jpg" />
+            <img src="images/course-1.png" />
           </div>
           <div class="course__info">
             <h4>Responsive SmartHome Website Design</h4>
@@ -178,7 +195,7 @@
 
         <article class="course">
           <div class="course__image">
-            <img src="./images/course11.jpg" />
+            <img src="images/course-1.png" />
           </div>
           <div class="course__info">
             <h4>Responsive SmartHome Website Design</h4>
@@ -191,7 +208,7 @@
 
         <article class="course">
           <div class="course__image">
-            <img src="./images/course12.jpg" />
+            <img src="images/course-1.png" />
           </div>
           <div class="course__info">
             <h4>Responsive SmartHome Website Design</h4>
@@ -204,7 +221,7 @@
 
         <article class="course">
           <div class="course__image">
-            <img src="./images/course13.jpg" />
+            <img src="images/course-1.png" />
           </div>
           <div class="course__info">
             <h4>Responsive SmartHome Website Design</h4>
@@ -217,7 +234,7 @@
 
         <article class="course">
           <div class="course__image">
-            <img src="./images/course14.jpg" />
+            <img src="images/course-1.png" />
           </div>
           <div class="course__info">
             <h4>Responsive SmartHome Website Design</h4>
@@ -230,7 +247,7 @@
 
         <article class="course">
           <div class="course__image">
-            <img src="./images/course15.jpg" />
+            <img src="images/course-1.png" />
           </div>
           <div class="course__info">
             <h4>Responsive SmartHome Website Design</h4>
@@ -243,7 +260,7 @@
 
         <article class="course">
           <div class="course__image">
-            <img src="./images/course16.jpg" />
+            <img src="images/course-1.png" />
           </div>
           <div class="course__info">
             <h4>Responsive SmartHome Website Design</h4>
@@ -256,7 +273,7 @@
 
         <article class="course">
           <div class="course__image">
-            <img src="./images/course17.jpg" />
+            <img src="images/course-1.png" />
           </div>
           <div class="course__info">
             <h4>Responsive SmartHome Website Design</h4>
@@ -269,7 +286,7 @@
 
         <article class="course">
           <div class="course__image">
-            <img src="./images/course18.jpg" />
+            <img src="images/course-1.png" />
           </div>
           <div class="course__info">
             <h4>Responsive SmartHome Website Design</h4>

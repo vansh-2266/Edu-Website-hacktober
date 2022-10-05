@@ -86,7 +86,7 @@
   
   .contact__form .btn {
     width: max-content;
-    margin-top: 1rem;
+    margin-top: 2rem;
     cursor: pointer;
   }
   
@@ -135,4 +135,15 @@
     .form__name input[type="text"] {
       width: 100%;
     }
+  }
+
+   /* --- nav btn effect ---  */
+   .nav-btn a:hover{
+    background: #fff;
+    color: #e4405f;
+    padding: 7px 12px;
+    border-radius: 5%;
+    font-weight: bold;
+
+    transition: all ease 0.7s;
   }
