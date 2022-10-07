@@ -22,6 +22,9 @@
 
     <!-- SWIPER JS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+ 
+    <!-- Aos cdn link  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
     <link rel="stylesheet" href="./css/style.css">
@@ -29,7 +32,7 @@
 
 </head>
 <body>
-    <nav>
+    <nav data-aos="zoom-out" >
         <div class="container nav__container grad">
           <!--<div class="logo">
             <img src="./images/logo.png" alt="">
@@ -61,7 +64,7 @@
         <img class="shape5" src="images/shape1.svg" alt="">
       </div>
 
-        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+        <div data-aos="zoom-out"  class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div class=" grad1 button lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 class="pge1 title-font sm:text-4xl text-3xl mb-4 font-medium text-white"> <b> Learn <br><span>Data Science</span> 
               <br class="hidden lg:inline-block"> Interactively</b>
@@ -95,11 +98,11 @@
 
     <section class="grad4">
       <div class="container about__achievements-container">
-          <div class="about__achievements-left">
+          <div data-aos="zoom-in-right"  class="about__achievements-left">
               <img class="grad2" src="./images/domain.png">
           </div>
 
-          <div class="about__achievements-right">
+          <div  data-aos="zoom-in-left" class="about__achievements-right">
               <h1 class="vision grad3">What is Data Science ?</h1>
               <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ullam velit, assumenda, obcaecati molestiae voluptatem placeat alias iste ad modi sunt quidem veniam recusandae possimus consequuntur quisquam soluta vero sapiente.
@@ -113,7 +116,7 @@
 
 
 
-  <div class="ach achievements__cards">
+  <div  data-aos="zoom-in" class="ach achievements__cards">
     <article class="achievement__card">
         <span class="achievement__icon">
             <i class="uil uil-video"></i>
@@ -150,11 +153,11 @@
           
 
           <div class="about__achievements-right">
-              <h1>Acheivements</h1>
-              <p>
+              <h1  data-aos="zoom-in-right">Acheivements</h1>
+              <p  data-aos="zoom-in-right">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ullam velit, assumenda, obcaecati molestiae voluptatem placeat alias iste ad modi sunt quidem veniam recusandae possimus consequuntur quisquam soluta vero sapiente.
               </p>
-              <div class="achievements__cards">
+              <div  data-aos="zoom-in-left" class="achievements__cards">
                   <article class="achievement__card">
                       <span class="achievement__icon">
                           <i class="uil uil-video"></i>
@@ -191,10 +194,11 @@
 
 
       <section class="courses">
-          <h2>Our Popular Courses</h2>
+          <h2  data-aos="zoom-in">Our Popular Courses</h2>
           <div class="container courses__container">
 
-            <article class="course">
+            <article data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom" class="course">
                 <div class="course__image">
                     <img src="./images/course1.jpg">
                 </div>
@@ -209,7 +213,8 @@
 
 
 
-            <article class="course">
+            <article data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom" class="course">
                 <div class="course__image">
                     <img src="./images/course3.jpg">
                 </div>
@@ -222,7 +227,8 @@
                 </div>
             </article>
 
-            <article class="course">
+            <article data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom" class="course">
               <div class="course__image">
                   <img src="./images/course3.jpg">
               </div>
@@ -253,9 +259,9 @@
 
 
       <section class="faqs">
-          <h2>Frequently Asked Questions</h2>
+          <h2 data-aos="zoom-in" >Frequently Asked Questions</h2>
           <div class="container faqs__container">
-              <article class="faq">
+              <article data-aos="zoom-in"  class="faq">
                   <div class="faq__icon"><i class="uil uil-plus"></i></div>
                   <div class="question__answer">
                       <h4>How do I know the right courses for me?</h4>
@@ -265,7 +271,7 @@
                   </div>
               </article>
 
-              <article class="faq">
+              <article data-aos="zoom-in"  class="faq">
                   <div class="faq__icon"><i class="uil uil-plus"></i></div>
                   <div class="question__answer">
                       <h4>How do I know the right courses for me?</h4>
@@ -275,7 +281,7 @@
                   </div>
               </article>
 
-              <article class="faq">
+              <article data-aos="zoom-in"  class="faq">
                   <div class="faq__icon"><i class="uil uil-plus"></i></div>
                   <div class="question__answer">
                       <h4>How do I know the right courses for me?</h4>
@@ -285,7 +291,7 @@
                   </div>
               </article>
 
-              <article class="faq">
+              <article data-aos="zoom-in"  class="faq">
                   <div class="faq__icon"><i class="uil uil-plus"></i></div>
                   <div class="question__answer">
                       <h4>How do I know the right courses for me?</h4>
@@ -295,7 +301,7 @@
                   </div>
               </article>
 
-              <article class="faq">
+              <article data-aos="zoom-in"  class="faq">
                   <div class="faq__icon"><i class="uil uil-plus"></i></div>
                   <div class="question__answer">
                       <h4>How do I know the right courses for me?</h4>
@@ -305,7 +311,7 @@
                   </div>
               </article>
 
-              <article class="faq">
+              <article data-aos="zoom-in"  class="faq">
                   <div class="faq__icon"><i class="uil uil-plus"></i></div>
                   <div class="question__answer">
                       <h4>How do I know the right courses for me?</h4>
@@ -315,7 +321,7 @@
                   </div>
               </article>
 
-              <article class="faq">
+              <article data-aos="zoom-in"  class="faq">
                   <div class="faq__icon"><i class="uil uil-plus"></i></div>
                   <div class="question__answer">
                       <h4>How do I know the right courses for me?</h4>
@@ -325,7 +331,7 @@
                   </div>
               </article>
 
-              <article class="faq">
+              <article data-aos="zoom-in"  class="faq">
                   <div class="faq__icon"><i class="uil uil-plus"></i></div>
                   <div class="question__answer">
                       <h4>How do I know the right courses for me?</h4>
@@ -335,7 +341,7 @@
                   </div>
               </article>
 
-              <article class="faq">
+              <article data-aos="zoom-in"  class="faq">
                   <div class="faq__icon"><i class="uil uil-plus"></i></div>
                   <div class="question__answer">
                       <h4>How do I know the right courses for me?</h4>
@@ -345,7 +351,7 @@
                   </div>
               </article>
 
-              <article class="faq">
+              <article data-aos="zoom-in"  class="faq">
                   <div class="faq__icon"><i class="uil uil-plus"></i></div>
                   <div class="question__answer">
                       <h4>How do I know the right courses for me?</h4>
@@ -360,7 +366,7 @@
 
 
       <footer>
-        <div class="container footer__container">
+        <div data-aos="zoom-in"  class="container footer__container">
           <div class="footer__1">
             <a href="index.html" class="footer__logo"><h4>EGATOR</h4></a>
             <p>
@@ -421,6 +427,8 @@
       <script src="./main.js"></script>
 
 
+
+    
       <script>
           // slides for testimonials section
           var swiper = new Swiper(".mySwiper", {
@@ -438,6 +446,13 @@
             }
         });
       </script>
+
+        <!-- aos script  -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <script>
+            AOS.init();
+        </script>
 
 </body>
 </html>

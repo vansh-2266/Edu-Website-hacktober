@@ -591,6 +591,10 @@
     margin-top: 2rem;
   }
 
+  .social-menu ul{
+    top: 93%;
+  }
+
   .about__achievements-container {
     grid-template-columns: 1fr;
     gap: 4rem;
@@ -617,6 +621,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 0.7rem;
   }
+
 
   .team__container {
     grid-template-columns: 1fr 1fr;
